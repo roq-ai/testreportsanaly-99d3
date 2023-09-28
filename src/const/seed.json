@@ -1,0 +1,2422 @@
+[
+  {
+    "test_run": [
+      {
+        "id": "110b6d38-0b3f-4c7d-8867-b38bfee95fa5",
+        "test_name": "Login Test",
+        "status": "Passed",
+        "start_time": "2023-09-27T07:17:16.813Z",
+        "end_time": "2023-09-27T22:38:52.333Z",
+        "created_at": "2023-09-27T17:52:59.631Z",
+        "updated_at": "2023-09-27T21:32:29.949Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93987721-08c9-4e33-8509-2b18c071aa9c",
+        "test_name": "Registration Test",
+        "status": "Failed",
+        "start_time": "2023-09-27T15:27:34.916Z",
+        "end_time": "2023-09-27T14:48:30.297Z",
+        "created_at": "2023-09-28T00:22:34.853Z",
+        "updated_at": "2023-09-28T02:28:03.877Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "907d8045-4b93-4e97-a1d7-6c8ffd3450a7",
+        "test_name": "Payment Test",
+        "status": "Pending",
+        "start_time": "2023-09-27T13:35:43.495Z",
+        "end_time": "2023-09-27T20:51:30.576Z",
+        "created_at": "2023-09-27T12:43:12.355Z",
+        "updated_at": "2023-09-27T14:29:25.368Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "177628f7-bb72-44f4-be8b-3d09eeece499",
+        "test_name": "Search Test",
+        "status": "Skipped",
+        "start_time": "2023-09-27T16:25:55.201Z",
+        "end_time": "2023-09-27T17:17:49.921Z",
+        "created_at": "2023-09-28T01:28:23.816Z",
+        "updated_at": "2023-09-27T23:10:46.396Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0063348c-5439-42dd-83e3-b50b5b2190c8",
+        "test_name": "Checkout Test",
+        "status": "Blocked",
+        "start_time": "2023-09-27T11:52:45.440Z",
+        "end_time": "2023-09-28T02:09:45.498Z",
+        "created_at": "2023-09-27T17:39:46.343Z",
+        "updated_at": "2023-09-27T21:38:37.914Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "917e4929-9723-4569-adf8-9c669d84b989",
+        "project_name": "E-commerce Website",
+        "project_status": "In Progress",
+        "created_at": "2023-09-27T12:33:21.660Z",
+        "updated_at": "2023-09-27T17:21:27.390Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "32e15f39-38f9-4419-b756-f2c03c1c8bf8",
+        "project_name": "Mobile App",
+        "project_status": "Completed",
+        "created_at": "2023-09-27T15:27:53.015Z",
+        "updated_at": "2023-09-27T20:38:48.965Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "4613ef31-de87-487a-8484-c120f2beee11",
+        "project_name": "CRM System",
+        "project_status": "On Hold",
+        "created_at": "2023-09-27T12:23:47.485Z",
+        "updated_at": "2023-09-27T18:39:33.911Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "8232ccae-a345-43ff-9ef0-12ba4b6a115c",
+        "project_name": "Inventory Management System",
+        "project_status": "Cancelled",
+        "created_at": "2023-09-27T19:05:11.622Z",
+        "updated_at": "2023-09-27T19:47:27.133Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "7cda34f3-03c7-4738-91f6-d4adea94b822",
+        "project_name": "Online Learning Platform",
+        "project_status": "Pending",
+        "created_at": "2023-09-27T12:03:58.956Z",
+        "updated_at": "2023-09-27T20:47:05.803Z",
+        "team_id": "main_entity_pk"
+      }
+    ],
+    "build": [
+      {
+        "id": "5b3fb576-b88d-44ce-92c5-9b5a1875a31b",
+        "build_name": "Version 1.0",
+        "build_status": "Successful",
+        "start_time": "2023-09-27T13:15:26.897Z",
+        "end_time": "2023-09-27T13:26:40.805Z",
+        "created_at": "2023-09-27T22:13:27.150Z",
+        "updated_at": "2023-09-27T18:24:28.601Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc9d3e15-ed31-400b-8430-19f310a25c84",
+        "build_name": "Build 123",
+        "build_status": "Failed",
+        "start_time": "2023-09-27T07:32:38.397Z",
+        "end_time": "2023-09-27T10:50:07.797Z",
+        "created_at": "2023-09-27T12:16:25.729Z",
+        "updated_at": "2023-09-28T06:47:52.940Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0063a66a-494f-4478-ade4-62f647b9ab32",
+        "build_name": "Release Candidate",
+        "build_status": "Partial",
+        "start_time": "2023-09-27T13:43:31.557Z",
+        "end_time": "2023-09-27T23:32:09.581Z",
+        "created_at": "2023-09-27T13:12:47.516Z",
+        "updated_at": "2023-09-27T21:26:08.792Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab687030-79a4-40c8-979f-5ca53c5a30e9",
+        "build_name": "Alpha Build",
+        "build_status": "Aborted",
+        "start_time": "2023-09-27T14:30:55.939Z",
+        "end_time": "2023-09-27T10:50:12.401Z",
+        "created_at": "2023-09-27T14:15:00.184Z",
+        "updated_at": "2023-09-28T06:04:31.039Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "48f0bdc7-4a6e-4f7c-a58c-2059d73d168e",
+        "build_name": "Beta Build",
+        "build_status": "Pending",
+        "start_time": "2023-09-27T07:58:59.590Z",
+        "end_time": "2023-09-27T14:40:05.642Z",
+        "created_at": "2023-09-27T09:27:44.483Z",
+        "updated_at": "2023-09-27T09:45:18.081Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "e59dbab9-bcd6-49aa-bc64-e3e9d148ce66",
+        "report_name": "Monthly Sales Report",
+        "report_status": "Generated",
+        "created_at": "2023-09-27T21:33:42.230Z",
+        "updated_at": "2023-09-27T20:20:17.027Z",
+        "build_id": "cc9d3e15-ed31-400b-8430-19f310a25c84",
+        "test_run_id": "93987721-08c9-4e33-8509-2b18c071aa9c"
+      },
+      {
+        "id": "8507e112-3f84-4219-8eec-dc3b508c1411",
+        "report_name": "Bug Report",
+        "report_status": "Pending",
+        "created_at": "2023-09-27T20:33:53.077Z",
+        "updated_at": "2023-09-27T21:47:17.958Z",
+        "build_id": "ab687030-79a4-40c8-979f-5ca53c5a30e9",
+        "test_run_id": "907d8045-4b93-4e97-a1d7-6c8ffd3450a7"
+      },
+      {
+        "id": "df2d3293-2420-4037-9e4b-23418524e15b",
+        "report_name": "Performance Analysis",
+        "report_status": "Reviewed",
+        "created_at": "2023-09-27T23:56:54.315Z",
+        "updated_at": "2023-09-27T17:18:12.663Z",
+        "build_id": "48f0bdc7-4a6e-4f7c-a58c-2059d73d168e",
+        "test_run_id": "0063348c-5439-42dd-83e3-b50b5b2190c8"
+      },
+      {
+        "id": "47e81cc6-5210-4562-9792-e446ced66aaf",
+        "report_name": "User Feedback Report",
+        "report_status": "Archived",
+        "created_at": "2023-09-28T03:23:30.368Z",
+        "updated_at": "2023-09-28T04:30:01.925Z",
+        "build_id": "ab687030-79a4-40c8-979f-5ca53c5a30e9",
+        "test_run_id": "907d8045-4b93-4e97-a1d7-6c8ffd3450a7"
+      },
+      {
+        "id": "90ec4b4d-844a-4b24-b9bb-d52410cff3db",
+        "report_name": "Security Audit Report",
+        "report_status": "Draft",
+        "created_at": "2023-09-28T01:18:37.845Z",
+        "updated_at": "2023-09-28T01:04:21.646Z",
+        "build_id": "0063a66a-494f-4478-ade4-62f647b9ab32",
+        "test_run_id": "907d8045-4b93-4e97-a1d7-6c8ffd3450a7"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fcc3ac24-75e2-4e72-9229-7756f2a775e2",
+        "email": "Corine.Bernier11@roq.tech",
+        "firstName": "Linwood",
+        "lastName": "Lakin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/846.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "53ac99e9-2bda-4180-ba1c-304150db0918",
+        "email": "Mckayla_Trantow63@roq.tech",
+        "firstName": "Jeanne",
+        "lastName": "Sipes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/533.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7a6a8d1d-9049-4c43-a742-384205694af0",
+        "email": "Gonzalo.OKeefe@roq.tech",
+        "firstName": "Vella",
+        "lastName": "Klein",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6396149",
+        "tenantId": null
+      },
+      {
+        "reference": "c7f20826-84e6-4948-83be-20c8451033d0",
+        "email": "Heath3@roq.tech",
+        "firstName": "Gabriella",
+        "lastName": "Nitzsche",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/162.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f9b3f89e-4b81-4655-8f9b-ca615f435811",
+        "email": "Eloise.Quitzon81@roq.tech",
+        "firstName": "Cleo",
+        "lastName": "Sawayn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88488769",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "test_run": [
+      {
+        "id": "9da573f5-b4ff-4e2a-bc8b-a37b8d92c421",
+        "test_name": "Login Test",
+        "status": "Passed",
+        "start_time": "2023-09-27T11:32:14.034Z",
+        "end_time": "2023-09-28T01:08:22.992Z",
+        "created_at": "2023-09-27T09:00:28.100Z",
+        "updated_at": "2023-09-28T03:37:52.275Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b9943f4c-73f5-45ca-985d-414833296099",
+        "test_name": "Registration Test",
+        "status": "Failed",
+        "start_time": "2023-09-27T18:02:11.875Z",
+        "end_time": "2023-09-27T09:41:53.687Z",
+        "created_at": "2023-09-27T08:57:01.175Z",
+        "updated_at": "2023-09-28T01:13:00.022Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0894441c-206c-40ed-83db-616db1f80c13",
+        "test_name": "Search Test",
+        "status": "Pending",
+        "start_time": "2023-09-27T22:56:26.716Z",
+        "end_time": "2023-09-28T00:44:14.145Z",
+        "created_at": "2023-09-27T20:03:40.345Z",
+        "updated_at": "2023-09-27T20:00:51.736Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e570a4e-e64b-43ea-8c6f-eb159f37fe98",
+        "test_name": "Payment Test",
+        "status": "Blocked",
+        "start_time": "2023-09-28T03:21:33.610Z",
+        "end_time": "2023-09-27T15:19:42.836Z",
+        "created_at": "2023-09-27T11:25:01.792Z",
+        "updated_at": "2023-09-27T15:36:22.127Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bd06c6b7-d737-4562-aa69-f6fc8c266871",
+        "test_name": "Logout Test",
+        "status": "Skipped",
+        "start_time": "2023-09-27T14:22:27.908Z",
+        "end_time": "2023-09-27T11:57:28.089Z",
+        "created_at": "2023-09-28T02:02:34.418Z",
+        "updated_at": "2023-09-27T22:20:18.783Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "383a1d44-e2f9-4ae1-87b4-e87679984812",
+        "project_name": "Project X",
+        "project_status": "Active",
+        "created_at": "2023-09-27T22:49:36.071Z",
+        "updated_at": "2023-09-27T10:21:00.969Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "201563cd-2307-4162-97fd-5146307d176f",
+        "project_name": "Project Y",
+        "project_status": "Inactive",
+        "created_at": "2023-09-27T09:11:58.677Z",
+        "updated_at": "2023-09-27T08:32:24.774Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "6f531011-6ba7-4747-98bd-ca4f92f383be",
+        "project_name": "Project Z",
+        "project_status": "On Hold",
+        "created_at": "2023-09-28T02:29:07.973Z",
+        "updated_at": "2023-09-27T11:10:50.803Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "fef64605-7c6f-44be-aa94-ed6b892589ec",
+        "project_name": "Project A",
+        "project_status": "Completed",
+        "created_at": "2023-09-28T03:47:54.469Z",
+        "updated_at": "2023-09-27T07:15:21.749Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "5b515236-34c8-4bc9-b26a-79934d07c141",
+        "project_name": "Project B",
+        "project_status": "Pending",
+        "created_at": "2023-09-27T12:51:03.627Z",
+        "updated_at": "2023-09-27T17:11:30.408Z",
+        "team_id": "main_entity_pk"
+      }
+    ],
+    "build": [
+      {
+        "id": "f291149e-d357-42bf-83c2-fdfeaed4d616",
+        "build_name": "Build 1.0",
+        "build_status": "Success",
+        "start_time": "2023-09-27T07:29:40.716Z",
+        "end_time": "2023-09-27T16:08:39.852Z",
+        "created_at": "2023-09-28T02:56:11.116Z",
+        "updated_at": "2023-09-27T07:11:04.675Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79fdde16-52a3-4a53-920f-0c5f6e5c6e2c",
+        "build_name": "Build 2.0",
+        "build_status": "Failed",
+        "start_time": "2023-09-27T10:05:54.444Z",
+        "end_time": "2023-09-28T01:01:04.640Z",
+        "created_at": "2023-09-27T17:47:48.670Z",
+        "updated_at": "2023-09-27T12:28:00.019Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c65e26d-db29-4e28-bb74-352a1e0890a7",
+        "build_name": "Build 3.0",
+        "build_status": "Pending",
+        "start_time": "2023-09-27T13:35:14.956Z",
+        "end_time": "2023-09-27T07:53:14.505Z",
+        "created_at": "2023-09-28T04:59:55.248Z",
+        "updated_at": "2023-09-27T11:27:38.862Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a68d01e4-ad7a-4fbe-a891-401b01cd61c6",
+        "build_name": "Build 4.0",
+        "build_status": "Blocked",
+        "start_time": "2023-09-27T22:09:25.089Z",
+        "end_time": "2023-09-27T10:36:44.371Z",
+        "created_at": "2023-09-28T04:05:30.654Z",
+        "updated_at": "2023-09-28T04:01:39.192Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d79a56da-cbaa-4771-ac22-2c33fcb18358",
+        "build_name": "Build 5.0",
+        "build_status": "Skipped",
+        "start_time": "2023-09-28T04:36:45.760Z",
+        "end_time": "2023-09-27T13:17:10.946Z",
+        "created_at": "2023-09-27T16:55:42.305Z",
+        "updated_at": "2023-09-27T17:55:40.183Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "e235cfbd-8b2f-48f3-ac77-185965baea14",
+        "report_name": "Monthly Report",
+        "report_status": "Published",
+        "created_at": "2023-09-27T07:41:32.921Z",
+        "updated_at": "2023-09-27T21:21:22.280Z",
+        "build_id": "2c65e26d-db29-4e28-bb74-352a1e0890a7",
+        "test_run_id": "0894441c-206c-40ed-83db-616db1f80c13"
+      },
+      {
+        "id": "279ea734-ba1c-47fe-8411-86ffaa58e46e",
+        "report_name": "Quarterly Report",
+        "report_status": "Draft",
+        "created_at": "2023-09-27T12:08:19.684Z",
+        "updated_at": "2023-09-27T14:28:43.248Z",
+        "build_id": "2c65e26d-db29-4e28-bb74-352a1e0890a7",
+        "test_run_id": "0894441c-206c-40ed-83db-616db1f80c13"
+      },
+      {
+        "id": "f869d02f-21a6-42bd-bf2a-0b67f2999184",
+        "report_name": "Annual Report",
+        "report_status": "Pending",
+        "created_at": "2023-09-27T11:14:18.845Z",
+        "updated_at": "2023-09-28T01:33:46.776Z",
+        "build_id": "2c65e26d-db29-4e28-bb74-352a1e0890a7",
+        "test_run_id": "9da573f5-b4ff-4e2a-bc8b-a37b8d92c421"
+      },
+      {
+        "id": "7bef5646-7123-4683-bff1-8727b413ca64",
+        "report_name": "Financial Report",
+        "report_status": "Rejected",
+        "created_at": "2023-09-28T02:54:48.277Z",
+        "updated_at": "2023-09-28T01:02:49.752Z",
+        "build_id": "79fdde16-52a3-4a53-920f-0c5f6e5c6e2c",
+        "test_run_id": "b9943f4c-73f5-45ca-985d-414833296099"
+      },
+      {
+        "id": "27d2aca2-689a-4067-9b6a-7d8b1c377873",
+        "report_name": "Sales Report",
+        "report_status": "Approved",
+        "created_at": "2023-09-27T16:52:31.450Z",
+        "updated_at": "2023-09-27T17:08:49.768Z",
+        "build_id": "f291149e-d357-42bf-83c2-fdfeaed4d616",
+        "test_run_id": "9da573f5-b4ff-4e2a-bc8b-a37b8d92c421"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "24a1fde4-dea6-400e-9d06-0f1eabede2cb",
+        "email": "Josue.Abbott57@roq.tech",
+        "firstName": "Sylvan",
+        "lastName": "Treutel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11396029",
+        "tenantId": null
+      },
+      {
+        "reference": "9531c7fd-c899-4354-8177-2bfbb7e34a96",
+        "email": "Paige.Lubowitz57@roq.tech",
+        "firstName": "Zechariah",
+        "lastName": "Walsh",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/584.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "08b73bd6-8656-4553-b3c2-5a82e6cc51d3",
+        "email": "Lessie6@roq.tech",
+        "firstName": "Cornell",
+        "lastName": "Kunde",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/103.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4f781290-47b5-46b0-a968-561e0d51eaad",
+        "email": "Leanne.Boehm@roq.tech",
+        "firstName": "Neal",
+        "lastName": "Quigley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1147.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ad5d4c25-21cb-45fe-8f36-d200e2f70e8f",
+        "email": "Janie.Blanda34@roq.tech",
+        "firstName": "Samara",
+        "lastName": "Nader",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/284.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "test_run": [
+      {
+        "id": "5269ed6e-a84c-47e5-bc99-40d01b0a497c",
+        "test_name": "Login Test",
+        "status": "Passed",
+        "start_time": "2023-09-28T01:34:19.217Z",
+        "end_time": "2023-09-27T21:42:03.550Z",
+        "created_at": "2023-09-28T02:57:30.192Z",
+        "updated_at": "2023-09-27T09:54:27.878Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "656db97b-5c5e-4f9e-904d-b8a4bc2d7f85",
+        "test_name": "Registration Test",
+        "status": "Failed",
+        "start_time": "2023-09-27T12:26:29.912Z",
+        "end_time": "2023-09-27T20:51:18.626Z",
+        "created_at": "2023-09-28T06:46:40.777Z",
+        "updated_at": "2023-09-27T13:21:21.993Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc1d3283-978f-4cfd-9b5e-2d38c73cd2d0",
+        "test_name": "Search Test",
+        "status": "Skipped",
+        "start_time": "2023-09-27T20:27:36.707Z",
+        "end_time": "2023-09-27T23:09:42.671Z",
+        "created_at": "2023-09-27T10:57:38.286Z",
+        "updated_at": "2023-09-27T12:09:32.482Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db8c96be-463d-492e-b375-d6ac1e55c1eb",
+        "test_name": "Checkout Test",
+        "status": "Pending",
+        "start_time": "2023-09-27T15:14:24.470Z",
+        "end_time": "2023-09-27T09:59:41.272Z",
+        "created_at": "2023-09-27T22:33:20.852Z",
+        "updated_at": "2023-09-28T06:20:36.269Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d7d70a9-dd5f-43e3-acf1-674b53d13fd6",
+        "test_name": "Payment Test",
+        "status": "Running",
+        "start_time": "2023-09-27T11:53:33.095Z",
+        "end_time": "2023-09-27T22:42:39.444Z",
+        "created_at": "2023-09-27T10:51:17.501Z",
+        "updated_at": "2023-09-27T22:05:09.828Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "3f42973e-a3c4-4d9b-bb33-8f7f7f5f9402",
+        "project_name": "E-commerce Website",
+        "project_status": "In Progress",
+        "created_at": "2023-09-27T18:34:28.961Z",
+        "updated_at": "2023-09-27T20:58:45.654Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "c67f41e1-8daa-4e3a-b6a6-c1ced32b874b",
+        "project_name": "Mobile Banking App",
+        "project_status": "Completed",
+        "created_at": "2023-09-27T23:54:29.675Z",
+        "updated_at": "2023-09-27T12:29:55.437Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "0038e039-c0eb-4c1d-adc8-1d15f638b328",
+        "project_name": "Social Media Platform",
+        "project_status": "On Hold",
+        "created_at": "2023-09-27T21:37:29.324Z",
+        "updated_at": "2023-09-27T09:48:05.896Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "83dd1992-0937-4da7-9963-69f439aad12d",
+        "project_name": "Online Learning Portal",
+        "project_status": "Cancelled",
+        "created_at": "2023-09-27T18:56:59.742Z",
+        "updated_at": "2023-09-28T05:31:58.972Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "610b8062-6339-4ce6-bfd2-9613882235bd",
+        "project_name": "Healthcare Management System",
+        "project_status": "Planning Phase",
+        "created_at": "2023-09-28T01:53:34.421Z",
+        "updated_at": "2023-09-27T16:14:45.710Z",
+        "team_id": "main_entity_pk"
+      }
+    ],
+    "build": [
+      {
+        "id": "d28622cf-56af-480b-85e4-b568596f13a8",
+        "build_name": "Version 1.0",
+        "build_status": "Successful",
+        "start_time": "2023-09-27T21:46:32.893Z",
+        "end_time": "2023-09-27T09:11:34.604Z",
+        "created_at": "2023-09-28T04:48:42.975Z",
+        "updated_at": "2023-09-27T20:11:11.600Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "901a50b9-e0bf-473f-ac8d-6e3e79f22c82",
+        "build_name": "Build 2022.1",
+        "build_status": "Failed",
+        "start_time": "2023-09-28T03:00:53.080Z",
+        "end_time": "2023-09-27T23:31:16.049Z",
+        "created_at": "2023-09-28T02:05:19.267Z",
+        "updated_at": "2023-09-28T05:21:37.584Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4ad9f92-e1ab-4a13-a3d0-ea832a345b95",
+        "build_name": "Alpha Release",
+        "build_status": "In Progress",
+        "start_time": "2023-09-27T14:24:24.383Z",
+        "end_time": "2023-09-27T13:21:41.771Z",
+        "created_at": "2023-09-27T17:29:54.608Z",
+        "updated_at": "2023-09-28T01:47:04.256Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c792371e-95f9-49a7-b719-32147a6c4e80",
+        "build_name": "Beta Release",
+        "build_status": "Pending",
+        "start_time": "2023-09-27T23:52:52.285Z",
+        "end_time": "2023-09-27T18:00:52.892Z",
+        "created_at": "2023-09-27T22:21:25.213Z",
+        "updated_at": "2023-09-27T19:11:40.445Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5deb9dc4-9018-43c7-b265-887ae53b1eb5",
+        "build_name": "Stable Release",
+        "build_status": "Cancelled",
+        "start_time": "2023-09-28T03:39:35.441Z",
+        "end_time": "2023-09-27T16:58:00.316Z",
+        "created_at": "2023-09-27T19:48:04.523Z",
+        "updated_at": "2023-09-28T05:28:53.621Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "898d086f-d8f1-497e-8063-d91e15e8fd62",
+        "report_name": "Monthly Sales Report",
+        "report_status": "Generated",
+        "created_at": "2023-09-27T11:27:24.686Z",
+        "updated_at": "2023-09-27T07:14:58.687Z",
+        "build_id": "d28622cf-56af-480b-85e4-b568596f13a8",
+        "test_run_id": "db8c96be-463d-492e-b375-d6ac1e55c1eb"
+      },
+      {
+        "id": "fb38c655-1d37-425a-bdec-dbc880037975",
+        "report_name": "Bug Tracking Report",
+        "report_status": "Pending",
+        "created_at": "2023-09-27T07:55:09.582Z",
+        "updated_at": "2023-09-27T22:39:43.239Z",
+        "build_id": "d28622cf-56af-480b-85e4-b568596f13a8",
+        "test_run_id": "fc1d3283-978f-4cfd-9b5e-2d38c73cd2d0"
+      },
+      {
+        "id": "61c8e9ca-6324-4973-85a0-3807dd8f5379",
+        "report_name": "Performance Analysis Report",
+        "report_status": "Reviewed",
+        "created_at": "2023-09-27T23:05:33.449Z",
+        "updated_at": "2023-09-27T12:08:19.637Z",
+        "build_id": "901a50b9-e0bf-473f-ac8d-6e3e79f22c82",
+        "test_run_id": "8d7d70a9-dd5f-43e3-acf1-674b53d13fd6"
+      },
+      {
+        "id": "6bbe47f9-5be1-47e6-a406-f4c12deb1f92",
+        "report_name": "User Feedback Report",
+        "report_status": "Approved",
+        "created_at": "2023-09-27T08:18:43.350Z",
+        "updated_at": "2023-09-28T02:24:34.601Z",
+        "build_id": "5deb9dc4-9018-43c7-b265-887ae53b1eb5",
+        "test_run_id": "656db97b-5c5e-4f9e-904d-b8a4bc2d7f85"
+      },
+      {
+        "id": "2270d9db-40b2-40c4-b67d-a3463dc1e026",
+        "report_name": "Quality Assurance Report",
+        "report_status": "Rejected",
+        "created_at": "2023-09-28T01:05:52.058Z",
+        "updated_at": "2023-09-28T06:36:35.288Z",
+        "build_id": "901a50b9-e0bf-473f-ac8d-6e3e79f22c82",
+        "test_run_id": "5269ed6e-a84c-47e5-bc99-40d01b0a497c"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c68b4957-5699-4e90-8aaa-a46bc6a713dc",
+        "email": "Alda17@roq.tech",
+        "firstName": "Anjali",
+        "lastName": "White",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1157.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ce7f8249-277a-43b3-8d69-522c7b6fb703",
+        "email": "Luz.Kertzmann59@roq.tech",
+        "firstName": "Katheryn",
+        "lastName": "Brekke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/928.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "40842f20-5f14-4f9a-a9a0-b5d4f311793b",
+        "email": "Jamarcus.Gibson93@roq.tech",
+        "firstName": "Tre",
+        "lastName": "Bayer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18676329",
+        "tenantId": null
+      },
+      {
+        "reference": "8deb080b-94fd-43f9-b749-36fa1e8b98b0",
+        "email": "Kaitlyn.Feil83@roq.tech",
+        "firstName": "Rigoberto",
+        "lastName": "Feeney",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/106.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "265f9853-76ec-49b7-bf56-003de644a297",
+        "email": "Noble_Kihn@roq.tech",
+        "firstName": "Joy",
+        "lastName": "Schuster",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43379036",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "test_run": [
+      {
+        "id": "1ee029aa-7fb2-4aa0-80fb-a9a310153c07",
+        "test_name": "Login Test",
+        "status": "Passed",
+        "start_time": "2023-09-28T06:52:31.180Z",
+        "end_time": "2023-09-27T17:52:24.579Z",
+        "created_at": "2023-09-27T14:53:10.689Z",
+        "updated_at": "2023-09-28T06:39:58.172Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7bb8921-4089-434b-801f-73c42506ffc5",
+        "test_name": "Registration Test",
+        "status": "Failed",
+        "start_time": "2023-09-27T19:09:22.853Z",
+        "end_time": "2023-09-28T02:31:50.274Z",
+        "created_at": "2023-09-27T09:59:26.193Z",
+        "updated_at": "2023-09-27T11:14:42.727Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bb6a97bf-b603-434c-b6dd-5bed79b8555c",
+        "test_name": "Payment Test",
+        "status": "Pending",
+        "start_time": "2023-09-27T11:35:06.778Z",
+        "end_time": "2023-09-27T13:26:31.599Z",
+        "created_at": "2023-09-27T18:27:01.315Z",
+        "updated_at": "2023-09-27T15:42:47.670Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d02173a-72a5-4c28-ad47-56e8a0ece3f5",
+        "test_name": "Search Test",
+        "status": "Skipped",
+        "start_time": "2023-09-27T14:30:41.153Z",
+        "end_time": "2023-09-27T18:17:32.655Z",
+        "created_at": "2023-09-28T01:00:06.114Z",
+        "updated_at": "2023-09-28T06:53:28.135Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "971cb3ad-00f8-40da-9481-e9bd39a360c1",
+        "test_name": "Checkout Test",
+        "status": "Running",
+        "start_time": "2023-09-27T12:24:30.702Z",
+        "end_time": "2023-09-27T07:57:37.492Z",
+        "created_at": "2023-09-28T04:08:24.391Z",
+        "updated_at": "2023-09-27T09:28:01.198Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "d3e1dbcc-8259-4554-ae97-d13e4a794af0",
+        "project_name": "E-commerce Website",
+        "project_status": "In Progress",
+        "created_at": "2023-09-28T00:12:53.549Z",
+        "updated_at": "2023-09-27T23:54:42.848Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "f868318c-d0f2-4160-ad5f-b4c98b3f1c38",
+        "project_name": "Mobile App",
+        "project_status": "Completed",
+        "created_at": "2023-09-28T04:39:10.876Z",
+        "updated_at": "2023-09-28T01:52:28.640Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "707b91ff-69c1-48cc-a0ad-19360e36126c",
+        "project_name": "CRM System",
+        "project_status": "On Hold",
+        "created_at": "2023-09-28T05:12:49.755Z",
+        "updated_at": "2023-09-27T10:39:39.287Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "773e6a67-2129-4f70-9cff-7b222c7027a3",
+        "project_name": "Inventory Management",
+        "project_status": "Cancelled",
+        "created_at": "2023-09-27T12:56:48.892Z",
+        "updated_at": "2023-09-28T00:56:41.831Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "ca5bef8d-be20-4cdf-8f5c-c6f6fa2a3904",
+        "project_name": "Social Media Platform",
+        "project_status": "Planning",
+        "created_at": "2023-09-27T07:31:53.636Z",
+        "updated_at": "2023-09-28T00:11:14.941Z",
+        "team_id": "main_entity_pk"
+      }
+    ],
+    "build": [
+      {
+        "id": "f5ee0f8a-b1fa-40ce-9a00-182c8ef17eab",
+        "build_name": "Version 1.0",
+        "build_status": "Successful",
+        "start_time": "2023-09-28T01:54:31.010Z",
+        "end_time": "2023-09-27T22:09:11.428Z",
+        "created_at": "2023-09-28T03:31:23.285Z",
+        "updated_at": "2023-09-27T10:19:43.240Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc36a7b6-1963-443e-890c-64eaefa9f419",
+        "build_name": "Build 2022.1",
+        "build_status": "Failed",
+        "start_time": "2023-09-27T21:26:35.671Z",
+        "end_time": "2023-09-27T13:31:32.540Z",
+        "created_at": "2023-09-27T22:40:56.314Z",
+        "updated_at": "2023-09-27T21:37:41.102Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5319debd-4758-4a0e-89b7-02dc0c3ee2f1",
+        "build_name": "Alpha Release",
+        "build_status": "In Progress",
+        "start_time": "2023-09-27T11:33:32.202Z",
+        "end_time": "2023-09-27T09:09:21.110Z",
+        "created_at": "2023-09-28T02:00:51.909Z",
+        "updated_at": "2023-09-28T04:18:37.244Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66316967-0559-41cd-9e36-bc6a724af95c",
+        "build_name": "Beta Release",
+        "build_status": "Cancelled",
+        "start_time": "2023-09-27T20:16:35.634Z",
+        "end_time": "2023-09-28T05:26:39.100Z",
+        "created_at": "2023-09-28T04:22:46.712Z",
+        "updated_at": "2023-09-27T07:02:10.102Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "efd2d18a-9801-43bd-ab11-84b7cb3da2b5",
+        "build_name": "Stable Release",
+        "build_status": "Pending",
+        "start_time": "2023-09-28T05:51:47.018Z",
+        "end_time": "2023-09-27T06:58:07.709Z",
+        "created_at": "2023-09-27T11:40:26.843Z",
+        "updated_at": "2023-09-27T15:01:05.370Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "6736fec6-8486-4499-b345-179d8a2116a8",
+        "report_name": "Monthly Sales Report",
+        "report_status": "Generated",
+        "created_at": "2023-09-28T02:46:44.427Z",
+        "updated_at": "2023-09-28T01:47:30.767Z",
+        "build_id": "bc36a7b6-1963-443e-890c-64eaefa9f419",
+        "test_run_id": "971cb3ad-00f8-40da-9481-e9bd39a360c1"
+      },
+      {
+        "id": "489a008f-487b-4c2c-93fd-e0454a12879d",
+        "report_name": "Bug Report",
+        "report_status": "Pending",
+        "created_at": "2023-09-27T11:53:18.855Z",
+        "updated_at": "2023-09-27T20:52:55.860Z",
+        "build_id": "66316967-0559-41cd-9e36-bc6a724af95c",
+        "test_run_id": "c7bb8921-4089-434b-801f-73c42506ffc5"
+      },
+      {
+        "id": "7b4fb7b8-19e1-4cad-8e14-8cabc771b259",
+        "report_name": "Performance Analysis",
+        "report_status": "Reviewed",
+        "created_at": "2023-09-27T14:14:50.506Z",
+        "updated_at": "2023-09-27T19:00:35.870Z",
+        "build_id": "5319debd-4758-4a0e-89b7-02dc0c3ee2f1",
+        "test_run_id": "2d02173a-72a5-4c28-ad47-56e8a0ece3f5"
+      },
+      {
+        "id": "165eaee2-8682-4b5e-880e-07a0242981b8",
+        "report_name": "User Feedback Report",
+        "report_status": "Archived",
+        "created_at": "2023-09-28T05:48:13.052Z",
+        "updated_at": "2023-09-27T16:33:00.010Z",
+        "build_id": "f5ee0f8a-b1fa-40ce-9a00-182c8ef17eab",
+        "test_run_id": "1ee029aa-7fb2-4aa0-80fb-a9a310153c07"
+      },
+      {
+        "id": "6a40e2de-15bc-421f-a0a1-77d33421343a",
+        "report_name": "Security Audit",
+        "report_status": "In Progress",
+        "created_at": "2023-09-28T01:20:34.589Z",
+        "updated_at": "2023-09-27T08:03:02.683Z",
+        "build_id": "f5ee0f8a-b1fa-40ce-9a00-182c8ef17eab",
+        "test_run_id": "1ee029aa-7fb2-4aa0-80fb-a9a310153c07"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "13abaac5-92a6-4558-b0a2-49067d0d1e7c",
+        "email": "Americo39@roq.tech",
+        "firstName": "Zoe",
+        "lastName": "Connelly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98955203",
+        "tenantId": null
+      },
+      {
+        "reference": "fad8495f-c407-4e3f-b9eb-583034fb4997",
+        "email": "Eldred.Lakin@roq.tech",
+        "firstName": "Douglas",
+        "lastName": "Bernhard",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/694.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "02dc5402-4970-431c-bcd8-dd702c401046",
+        "email": "Lou99@roq.tech",
+        "firstName": "Kailey",
+        "lastName": "Brakus",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35221710",
+        "tenantId": null
+      },
+      {
+        "reference": "d8176364-c771-47be-86d2-b9ec64a3dd78",
+        "email": "Elroy_Dickinson@roq.tech",
+        "firstName": "Walker",
+        "lastName": "Baumbach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/683.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "afdcece5-bd05-45d0-a37e-4058bb7fd5ce",
+        "email": "Anahi63@roq.tech",
+        "firstName": "Nash",
+        "lastName": "Parisian",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50947361",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "test_run": [
+      {
+        "id": "e11e8d2c-c018-42d2-ae3a-920a8398545d",
+        "test_name": "Login Test",
+        "status": "Passed",
+        "start_time": "2023-09-27T18:32:43.729Z",
+        "end_time": "2023-09-28T02:51:26.070Z",
+        "created_at": "2023-09-27T17:19:08.698Z",
+        "updated_at": "2023-09-28T04:26:07.296Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c99ca06-5bd9-4b91-9255-208afdf8e24a",
+        "test_name": "Registration Test",
+        "status": "Failed",
+        "start_time": "2023-09-27T09:33:41.964Z",
+        "end_time": "2023-09-27T16:41:19.376Z",
+        "created_at": "2023-09-27T22:52:28.206Z",
+        "updated_at": "2023-09-28T05:30:26.729Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "380c0143-7db5-45d5-b6f4-df1f86ae397b",
+        "test_name": "Payment Test",
+        "status": "Skipped",
+        "start_time": "2023-09-27T08:44:48.172Z",
+        "end_time": "2023-09-28T04:59:39.200Z",
+        "created_at": "2023-09-27T10:38:30.850Z",
+        "updated_at": "2023-09-28T05:19:43.819Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c033d14d-2816-4fb4-a883-9040d874453c",
+        "test_name": "Search Test",
+        "status": "Pending",
+        "start_time": "2023-09-27T21:28:38.018Z",
+        "end_time": "2023-09-28T00:53:27.106Z",
+        "created_at": "2023-09-27T09:30:38.561Z",
+        "updated_at": "2023-09-28T06:28:08.098Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ddc017c-606a-4cb2-89cb-8438dd60a9b4",
+        "test_name": "Checkout Test",
+        "status": "Running",
+        "start_time": "2023-09-27T17:35:07.541Z",
+        "end_time": "2023-09-27T07:32:45.492Z",
+        "created_at": "2023-09-27T14:32:41.910Z",
+        "updated_at": "2023-09-28T00:44:59.092Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "1de54adf-11f0-4e31-b7cc-1356e85a50a8",
+        "project_name": "Project X",
+        "project_status": "In Progress",
+        "created_at": "2023-09-27T12:25:07.275Z",
+        "updated_at": "2023-09-28T01:37:57.068Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "35e5b9ba-8e13-4971-be2b-251df5d01f4f",
+        "project_name": "Project Y",
+        "project_status": "Completed",
+        "created_at": "2023-09-27T13:14:06.541Z",
+        "updated_at": "2023-09-27T17:24:13.177Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "cb1c8f66-015a-47ec-846b-e263d6371155",
+        "project_name": "Project Z",
+        "project_status": "On Hold",
+        "created_at": "2023-09-27T18:08:56.885Z",
+        "updated_at": "2023-09-27T09:53:33.573Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "cbe576d6-3201-42ed-9469-6524eaded569",
+        "project_name": "Project A",
+        "project_status": "Cancelled",
+        "created_at": "2023-09-27T14:07:36.790Z",
+        "updated_at": "2023-09-28T03:10:14.017Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "16cf5ed8-e0f2-42a2-a1f9-b64a19e5915b",
+        "project_name": "Project B",
+        "project_status": "Pending",
+        "created_at": "2023-09-28T00:02:06.671Z",
+        "updated_at": "2023-09-27T20:25:05.048Z",
+        "team_id": "main_entity_pk"
+      }
+    ],
+    "build": [
+      {
+        "id": "a1aca64b-dfa1-413c-874f-954fb8542b6b",
+        "build_name": "Build 1.0",
+        "build_status": "Success",
+        "start_time": "2023-09-27T20:46:37.735Z",
+        "end_time": "2023-09-28T01:11:21.718Z",
+        "created_at": "2023-09-28T06:17:46.546Z",
+        "updated_at": "2023-09-27T23:37:36.359Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5bd8b12a-0a74-4d58-8180-1aa0b289562d",
+        "build_name": "Build 2.0",
+        "build_status": "Failed",
+        "start_time": "2023-09-27T09:07:41.494Z",
+        "end_time": "2023-09-27T09:09:01.944Z",
+        "created_at": "2023-09-27T21:11:33.835Z",
+        "updated_at": "2023-09-27T08:01:21.585Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5d799bf-9714-46ef-b252-6ac6c24f34f7",
+        "build_name": "Build 3.0",
+        "build_status": "Pending",
+        "start_time": "2023-09-28T00:17:29.426Z",
+        "end_time": "2023-09-27T21:39:55.668Z",
+        "created_at": "2023-09-27T17:47:50.147Z",
+        "updated_at": "2023-09-27T22:54:15.524Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b4993e98-3c3b-4f7c-87cb-65eba21e96be",
+        "build_name": "Build 4.0",
+        "build_status": "Running",
+        "start_time": "2023-09-27T07:40:37.087Z",
+        "end_time": "2023-09-27T13:21:52.632Z",
+        "created_at": "2023-09-27T13:05:31.155Z",
+        "updated_at": "2023-09-27T23:33:21.076Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b574019d-7e9a-4a60-99f6-568641169c4a",
+        "build_name": "Build 5.0",
+        "build_status": "Aborted",
+        "start_time": "2023-09-27T14:18:56.911Z",
+        "end_time": "2023-09-27T14:03:07.844Z",
+        "created_at": "2023-09-27T22:52:56.634Z",
+        "updated_at": "2023-09-27T23:20:17.786Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "56b1418f-e61f-499e-a18c-719433e6b15f",
+        "report_name": "Monthly Report",
+        "report_status": "Draft",
+        "created_at": "2023-09-27T17:17:32.672Z",
+        "updated_at": "2023-09-27T16:31:40.658Z",
+        "build_id": "a1aca64b-dfa1-413c-874f-954fb8542b6b",
+        "test_run_id": "2c99ca06-5bd9-4b91-9255-208afdf8e24a"
+      },
+      {
+        "id": "d0a39939-d9f5-4bad-9b2c-65e7e2f56c6b",
+        "report_name": "Quarterly Report",
+        "report_status": "Published",
+        "created_at": "2023-09-28T02:25:44.601Z",
+        "updated_at": "2023-09-28T06:32:40.956Z",
+        "build_id": "a1aca64b-dfa1-413c-874f-954fb8542b6b",
+        "test_run_id": "380c0143-7db5-45d5-b6f4-df1f86ae397b"
+      },
+      {
+        "id": "4c25ed7c-9202-4beb-bed8-a55285524441",
+        "report_name": "Annual Report",
+        "report_status": "Archived",
+        "created_at": "2023-09-28T01:36:23.915Z",
+        "updated_at": "2023-09-28T05:46:08.647Z",
+        "build_id": "b5d799bf-9714-46ef-b252-6ac6c24f34f7",
+        "test_run_id": "2c99ca06-5bd9-4b91-9255-208afdf8e24a"
+      },
+      {
+        "id": "bf9980e7-0199-44e9-a7ee-72e3712631f4",
+        "report_name": "Sales Report",
+        "report_status": "Pending",
+        "created_at": "2023-09-27T11:46:52.674Z",
+        "updated_at": "2023-09-28T04:38:26.992Z",
+        "build_id": "a1aca64b-dfa1-413c-874f-954fb8542b6b",
+        "test_run_id": "0ddc017c-606a-4cb2-89cb-8438dd60a9b4"
+      },
+      {
+        "id": "fb502416-ca15-4ef2-b708-fcc7c3f33076",
+        "report_name": "Financial Report",
+        "report_status": "Review",
+        "created_at": "2023-09-27T09:31:35.942Z",
+        "updated_at": "2023-09-27T22:11:05.771Z",
+        "build_id": "a1aca64b-dfa1-413c-874f-954fb8542b6b",
+        "test_run_id": "c033d14d-2816-4fb4-a883-9040d874453c"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d2d21503-9829-4506-8a9d-7b3f7a035d2c",
+        "email": "Thaddeus.Harris@roq.tech",
+        "firstName": "Deon",
+        "lastName": "Hartmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1078.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4defe9d8-ed3f-4cb3-853e-e66304dbbc97",
+        "email": "Nickolas50@roq.tech",
+        "firstName": "Andres",
+        "lastName": "Jones",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/146.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "45fe5dd4-7ed8-43b6-903f-ea32b8d99191",
+        "email": "Josie96@roq.tech",
+        "firstName": "Abel",
+        "lastName": "Zboncak",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35480180",
+        "tenantId": null
+      },
+      {
+        "reference": "44855422-3549-474c-9811-72f9f23675aa",
+        "email": "Alexandro.Block@roq.tech",
+        "firstName": "Fatima",
+        "lastName": "Maggio",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80107671",
+        "tenantId": null
+      },
+      {
+        "reference": "18ccbc24-4e4c-4b51-80a7-90d1f714a38f",
+        "email": "Ernesto_Johnston@roq.tech",
+        "firstName": "Maegan",
+        "lastName": "Heller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/656.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "test_run": [
+      {
+        "id": "72d79d19-1bd0-4182-b0fa-e3869136c1a7",
+        "test_name": "Login Test",
+        "status": "Passed",
+        "start_time": "2023-09-27T18:19:43.299Z",
+        "end_time": "2023-09-28T05:17:26.250Z",
+        "created_at": "2023-09-28T04:19:44.892Z",
+        "updated_at": "2023-09-27T21:40:25.427Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32212d3d-281c-402f-83bc-a67d75eaad1e",
+        "test_name": "Registration Test",
+        "status": "Failed",
+        "start_time": "2023-09-27T07:30:44.124Z",
+        "end_time": "2023-09-27T16:30:48.700Z",
+        "created_at": "2023-09-28T02:17:16.513Z",
+        "updated_at": "2023-09-28T00:31:07.202Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e176f064-15b8-4139-84a5-84de942e996b",
+        "test_name": "Payment Test",
+        "status": "Skipped",
+        "start_time": "2023-09-27T08:54:50.492Z",
+        "end_time": "2023-09-27T21:08:28.380Z",
+        "created_at": "2023-09-27T11:24:31.497Z",
+        "updated_at": "2023-09-27T13:52:00.691Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a2398aa0-0baf-4bb6-aca7-49733104bca8",
+        "test_name": "Search Test",
+        "status": "Pending",
+        "start_time": "2023-09-28T01:29:00.397Z",
+        "end_time": "2023-09-27T18:26:36.586Z",
+        "created_at": "2023-09-27T14:14:23.760Z",
+        "updated_at": "2023-09-27T19:05:18.229Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c3e4841-3b89-4907-ba81-9dd0f8a87169",
+        "test_name": "Checkout Test",
+        "status": "Running",
+        "start_time": "2023-09-27T19:57:54.010Z",
+        "end_time": "2023-09-27T22:28:03.196Z",
+        "created_at": "2023-09-27T14:54:40.055Z",
+        "updated_at": "2023-09-28T03:06:20.112Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "a714792d-907a-4ef6-86a4-aa289cc029fc",
+        "project_name": "Project X",
+        "project_status": "In Progress",
+        "created_at": "2023-09-27T10:30:26.040Z",
+        "updated_at": "2023-09-27T12:32:03.867Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "2d5d06a8-316e-4e81-a413-049cddb5adc4",
+        "project_name": "Project Y",
+        "project_status": "Completed",
+        "created_at": "2023-09-28T05:05:57.558Z",
+        "updated_at": "2023-09-27T11:15:08.841Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "b3d94ee4-599f-4f84-8fdf-2fca98e7617d",
+        "project_name": "Project Z",
+        "project_status": "On Hold",
+        "created_at": "2023-09-27T23:29:48.137Z",
+        "updated_at": "2023-09-27T17:25:58.330Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "8f32e0bd-f69c-4a80-a4b2-876fcff29bff",
+        "project_name": "Project A",
+        "project_status": "Cancelled",
+        "created_at": "2023-09-27T16:29:03.231Z",
+        "updated_at": "2023-09-27T12:25:38.642Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "605d4734-119f-4e34-b5a6-e51e14689894",
+        "project_name": "Project B",
+        "project_status": "Pending",
+        "created_at": "2023-09-28T02:07:29.721Z",
+        "updated_at": "2023-09-27T18:43:58.005Z",
+        "team_id": "main_entity_pk"
+      }
+    ],
+    "build": [
+      {
+        "id": "88ffca33-e318-4f94-b405-475af94b524e",
+        "build_name": "Build 1.0",
+        "build_status": "Success",
+        "start_time": "2023-09-27T23:19:05.887Z",
+        "end_time": "2023-09-28T03:04:58.785Z",
+        "created_at": "2023-09-27T08:45:13.075Z",
+        "updated_at": "2023-09-27T08:30:03.096Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4609882d-54f1-479b-898b-93dad93f06ca",
+        "build_name": "Build 2.0",
+        "build_status": "Failure",
+        "start_time": "2023-09-27T12:44:24.448Z",
+        "end_time": "2023-09-27T15:51:18.881Z",
+        "created_at": "2023-09-27T11:30:51.419Z",
+        "updated_at": "2023-09-27T11:03:46.044Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea2a25f9-47e9-434d-a9ca-c8cc772c5ec1",
+        "build_name": "Build 3.0",
+        "build_status": "Pending",
+        "start_time": "2023-09-27T12:43:00.798Z",
+        "end_time": "2023-09-28T05:47:11.564Z",
+        "created_at": "2023-09-28T03:34:11.858Z",
+        "updated_at": "2023-09-27T21:50:58.999Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f0a5e5d-49a9-4315-b1fd-20a66523ecd0",
+        "build_name": "Build 4.0",
+        "build_status": "Aborted",
+        "start_time": "2023-09-27T19:17:02.012Z",
+        "end_time": "2023-09-27T10:10:40.716Z",
+        "created_at": "2023-09-28T01:35:31.844Z",
+        "updated_at": "2023-09-27T22:23:16.788Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "57e59535-8bac-41b4-8caa-319fc918c03f",
+        "build_name": "Build 5.0",
+        "build_status": "Running",
+        "start_time": "2023-09-27T18:16:39.808Z",
+        "end_time": "2023-09-27T11:46:17.992Z",
+        "created_at": "2023-09-27T12:46:50.507Z",
+        "updated_at": "2023-09-27T22:45:41.126Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "2e6d468b-77f6-4eb4-8e10-1f616fc30ecd",
+        "report_name": "Monthly Report",
+        "report_status": "Published",
+        "created_at": "2023-09-28T05:29:54.155Z",
+        "updated_at": "2023-09-28T00:43:13.184Z",
+        "build_id": "88ffca33-e318-4f94-b405-475af94b524e",
+        "test_run_id": "8c3e4841-3b89-4907-ba81-9dd0f8a87169"
+      },
+      {
+        "id": "4b244dc7-3586-4165-9e42-d84f29f04d71",
+        "report_name": "Quarterly Report",
+        "report_status": "Draft",
+        "created_at": "2023-09-27T23:54:05.701Z",
+        "updated_at": "2023-09-27T22:29:14.273Z",
+        "build_id": "ea2a25f9-47e9-434d-a9ca-c8cc772c5ec1",
+        "test_run_id": "72d79d19-1bd0-4182-b0fa-e3869136c1a7"
+      },
+      {
+        "id": "a0816654-ab2a-46a3-951e-08e3abb7c4d9",
+        "report_name": "Annual Report",
+        "report_status": "Pending",
+        "created_at": "2023-09-27T07:31:26.919Z",
+        "updated_at": "2023-09-27T12:15:01.326Z",
+        "build_id": "5f0a5e5d-49a9-4315-b1fd-20a66523ecd0",
+        "test_run_id": "72d79d19-1bd0-4182-b0fa-e3869136c1a7"
+      },
+      {
+        "id": "71a0f08c-1992-492f-bedf-82b4befee09c",
+        "report_name": "Sales Report",
+        "report_status": "Archived",
+        "created_at": "2023-09-27T23:05:34.547Z",
+        "updated_at": "2023-09-28T06:47:37.822Z",
+        "build_id": "4609882d-54f1-479b-898b-93dad93f06ca",
+        "test_run_id": "a2398aa0-0baf-4bb6-aca7-49733104bca8"
+      },
+      {
+        "id": "adf23e35-8393-4c6d-8a01-7f90b7e62505",
+        "report_name": "Financial Report",
+        "report_status": "Reviewed",
+        "created_at": "2023-09-27T18:02:18.434Z",
+        "updated_at": "2023-09-27T21:01:16.850Z",
+        "build_id": "88ffca33-e318-4f94-b405-475af94b524e",
+        "test_run_id": "32212d3d-281c-402f-83bc-a67d75eaad1e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5719febf-e05c-4a9b-a37a-fbd0711fd34d",
+        "email": "Felton40@roq.tech",
+        "firstName": "Kristopher",
+        "lastName": "Hagenes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/792.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "248d96d8-24b9-4132-9f74-064cc64c5c15",
+        "email": "Joseph_Gerlach@roq.tech",
+        "firstName": "Ahmed",
+        "lastName": "Orn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/183.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b24ac1f0-1600-4792-8eb7-8b801aa6772f",
+        "email": "Kimberly.Welch@roq.tech",
+        "firstName": "Noemie",
+        "lastName": "Wilkinson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/491.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f506b2d9-5403-4b81-a291-85d9457adda2",
+        "email": "Reba_Bartell@roq.tech",
+        "firstName": "Noe",
+        "lastName": "Kub",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/911.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dce60f7c-82b8-4681-bc13-abb78ca55baa",
+        "email": "Herta.Armstrong@roq.tech",
+        "firstName": "Marion",
+        "lastName": "Toy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25283555",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "test_run": [
+      {
+        "id": "81886006-db1b-418d-85c2-47e2b1b13de7",
+        "test_name": "Login Test",
+        "status": "Passed",
+        "start_time": "2023-09-27T08:16:03.966Z",
+        "end_time": "2023-09-27T09:40:09.526Z",
+        "created_at": "2023-09-27T12:30:51.631Z",
+        "updated_at": "2023-09-28T00:44:11.463Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ac232f2-44bd-4207-a62c-40d30ddaf255",
+        "test_name": "Signup Test",
+        "status": "Failed",
+        "start_time": "2023-09-27T09:08:06.010Z",
+        "end_time": "2023-09-27T15:41:45.761Z",
+        "created_at": "2023-09-27T23:13:07.012Z",
+        "updated_at": "2023-09-27T22:35:52.119Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b801e99e-a8a8-480b-a218-9e6b973c5a0b",
+        "test_name": "Search Test",
+        "status": "Pending",
+        "start_time": "2023-09-27T21:01:27.969Z",
+        "end_time": "2023-09-27T09:08:48.224Z",
+        "created_at": "2023-09-27T09:26:06.777Z",
+        "updated_at": "2023-09-27T11:59:29.477Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "afe1412c-07ea-4e86-ac36-c553cc58f368",
+        "test_name": "Payment Test",
+        "status": "Skipped",
+        "start_time": "2023-09-28T01:50:17.463Z",
+        "end_time": "2023-09-27T10:21:31.529Z",
+        "created_at": "2023-09-27T22:19:41.483Z",
+        "updated_at": "2023-09-27T13:21:45.645Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0f2c82b-234c-4139-94f9-bc1f52e4ce75",
+        "test_name": "Logout Test",
+        "status": "Blocked",
+        "start_time": "2023-09-27T18:27:16.869Z",
+        "end_time": "2023-09-27T12:00:33.567Z",
+        "created_at": "2023-09-27T15:28:55.486Z",
+        "updated_at": "2023-09-28T04:05:25.016Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "3993843e-fc1f-4b99-8ab0-9e3cccb1529b",
+        "project_name": "Project X",
+        "project_status": "In Progress",
+        "created_at": "2023-09-27T23:48:19.780Z",
+        "updated_at": "2023-09-27T08:24:10.093Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "59d8f59e-158e-4a0e-accd-41638e0a36b3",
+        "project_name": "Project Y",
+        "project_status": "Completed",
+        "created_at": "2023-09-28T06:05:11.483Z",
+        "updated_at": "2023-09-27T12:05:41.684Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "42c1c978-31a1-4185-bd09-c64fe1894f08",
+        "project_name": "Project Z",
+        "project_status": "On Hold",
+        "created_at": "2023-09-28T05:00:06.650Z",
+        "updated_at": "2023-09-27T16:39:29.623Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "b4841161-1eaf-49f8-be71-313306f1c9ca",
+        "project_name": "Project A",
+        "project_status": "Cancelled",
+        "created_at": "2023-09-27T08:58:15.725Z",
+        "updated_at": "2023-09-27T16:27:43.165Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "9acfa1c5-5bb2-4346-9ae7-d6763d308b33",
+        "project_name": "Project B",
+        "project_status": "Pending",
+        "created_at": "2023-09-28T02:36:16.050Z",
+        "updated_at": "2023-09-28T06:14:26.312Z",
+        "team_id": "main_entity_pk"
+      }
+    ],
+    "build": [
+      {
+        "id": "0d324f27-142d-45d8-8433-0be4707c72bc",
+        "build_name": "Build 1.0",
+        "build_status": "Success",
+        "start_time": "2023-09-28T03:14:09.584Z",
+        "end_time": "2023-09-28T00:14:06.548Z",
+        "created_at": "2023-09-27T21:24:31.855Z",
+        "updated_at": "2023-09-27T08:53:38.534Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78b75bab-192d-4625-ace3-01130a6d6893",
+        "build_name": "Build 2.0",
+        "build_status": "Failure",
+        "start_time": "2023-09-27T15:03:30.521Z",
+        "end_time": "2023-09-27T09:44:27.741Z",
+        "created_at": "2023-09-27T15:47:05.746Z",
+        "updated_at": "2023-09-28T00:46:10.801Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd5b5db2-a0d0-45cb-a9c8-70dbadcfb959",
+        "build_name": "Build 3.0",
+        "build_status": "Running",
+        "start_time": "2023-09-27T21:48:22.355Z",
+        "end_time": "2023-09-27T17:11:42.777Z",
+        "created_at": "2023-09-27T14:44:40.822Z",
+        "updated_at": "2023-09-28T03:44:50.777Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "315c3143-264f-441d-95e7-a60b570595c6",
+        "build_name": "Build 4.0",
+        "build_status": "Pending",
+        "start_time": "2023-09-27T23:31:21.307Z",
+        "end_time": "2023-09-27T14:06:31.536Z",
+        "created_at": "2023-09-27T20:54:09.682Z",
+        "updated_at": "2023-09-27T15:01:25.272Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43977efc-0806-403b-a8b1-a73cdcd39b01",
+        "build_name": "Build 5.0",
+        "build_status": "Aborted",
+        "start_time": "2023-09-27T19:57:53.508Z",
+        "end_time": "2023-09-27T17:12:33.613Z",
+        "created_at": "2023-09-27T19:12:45.057Z",
+        "updated_at": "2023-09-28T03:20:49.450Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "eccc86a1-077d-431b-b6cf-4185b85da96e",
+        "report_name": "Monthly Report",
+        "report_status": "Generated",
+        "created_at": "2023-09-28T04:48:58.491Z",
+        "updated_at": "2023-09-27T21:20:33.467Z",
+        "build_id": "43977efc-0806-403b-a8b1-a73cdcd39b01",
+        "test_run_id": "afe1412c-07ea-4e86-ac36-c553cc58f368"
+      },
+      {
+        "id": "18acfde1-7c9b-4ba0-b137-148c6c0db45e",
+        "report_name": "Quarterly Report",
+        "report_status": "Pending",
+        "created_at": "2023-09-28T03:49:48.846Z",
+        "updated_at": "2023-09-28T05:21:37.676Z",
+        "build_id": "43977efc-0806-403b-a8b1-a73cdcd39b01",
+        "test_run_id": "81886006-db1b-418d-85c2-47e2b1b13de7"
+      },
+      {
+        "id": "48df5394-3545-453f-afca-28484b644d1d",
+        "report_name": "Annual Report",
+        "report_status": "Failed",
+        "created_at": "2023-09-27T21:29:44.068Z",
+        "updated_at": "2023-09-28T04:46:00.427Z",
+        "build_id": "0d324f27-142d-45d8-8433-0be4707c72bc",
+        "test_run_id": "d0f2c82b-234c-4139-94f9-bc1f52e4ce75"
+      },
+      {
+        "id": "89b3a532-92b0-40c6-b9bd-c19016689537",
+        "report_name": "Sales Report",
+        "report_status": "Completed",
+        "created_at": "2023-09-27T11:10:11.997Z",
+        "updated_at": "2023-09-27T15:42:46.797Z",
+        "build_id": "43977efc-0806-403b-a8b1-a73cdcd39b01",
+        "test_run_id": "81886006-db1b-418d-85c2-47e2b1b13de7"
+      },
+      {
+        "id": "dc1e3da2-c29d-4594-8088-a181c57eb78b",
+        "report_name": "Financial Report",
+        "report_status": "Processing",
+        "created_at": "2023-09-27T14:01:52.049Z",
+        "updated_at": "2023-09-28T03:27:48.378Z",
+        "build_id": "43977efc-0806-403b-a8b1-a73cdcd39b01",
+        "test_run_id": "afe1412c-07ea-4e86-ac36-c553cc58f368"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0f649593-4a1e-49e4-91ff-df1f5f091cda",
+        "email": "Katharina48@roq.tech",
+        "firstName": "Alana",
+        "lastName": "Goyette",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/710366",
+        "tenantId": null
+      },
+      {
+        "reference": "f9a91396-094d-4a89-bf69-49f82add4ea5",
+        "email": "Marvin_Smitham@roq.tech",
+        "firstName": "Mikel",
+        "lastName": "Bogan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73503577",
+        "tenantId": null
+      },
+      {
+        "reference": "9ab505cf-f404-41d6-8eb8-a7785dfc5e7c",
+        "email": "Magdalen42@roq.tech",
+        "firstName": "Jessika",
+        "lastName": "Weissnat",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/599.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "517405ea-e8ea-4bb3-bb39-b2e1d7dc30b8",
+        "email": "Barton.Marks16@roq.tech",
+        "firstName": "Evan",
+        "lastName": "Romaguera",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12110414",
+        "tenantId": null
+      },
+      {
+        "reference": "75755ea4-bced-4486-b630-3df9b26e8881",
+        "email": "Maurice2@roq.tech",
+        "firstName": "Martina",
+        "lastName": "Stokes-Moen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67445522",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "test_run": [
+      {
+        "id": "e455b1d6-8fd2-4012-b8a5-fbe940ce528b",
+        "test_name": "Login Test",
+        "status": "Passed",
+        "start_time": "2023-09-27T20:55:36.622Z",
+        "end_time": "2023-09-28T02:24:01.942Z",
+        "created_at": "2023-09-27T16:42:00.398Z",
+        "updated_at": "2023-09-28T03:54:15.006Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "320e4768-148a-4a28-adaa-b9a0aea1841d",
+        "test_name": "Registration Test",
+        "status": "Failed",
+        "start_time": "2023-09-28T03:53:24.086Z",
+        "end_time": "2023-09-27T17:00:45.213Z",
+        "created_at": "2023-09-27T12:44:42.284Z",
+        "updated_at": "2023-09-27T14:03:02.774Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6381c185-619d-42b2-9b83-3184b484a9ab",
+        "test_name": "Search Test",
+        "status": "Skipped",
+        "start_time": "2023-09-27T17:38:24.173Z",
+        "end_time": "2023-09-27T14:58:52.690Z",
+        "created_at": "2023-09-28T03:11:05.788Z",
+        "updated_at": "2023-09-28T01:03:10.242Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f53d6f81-ab48-4f33-a967-09ed83cc5786",
+        "test_name": "Payment Test",
+        "status": "Pending",
+        "start_time": "2023-09-27T07:35:01.207Z",
+        "end_time": "2023-09-28T02:29:18.631Z",
+        "created_at": "2023-09-27T18:39:41.520Z",
+        "updated_at": "2023-09-27T11:50:43.426Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "421c8f8a-5878-4d9b-8010-6e2faab82d5b",
+        "test_name": "Logout Test",
+        "status": "Running",
+        "start_time": "2023-09-28T04:12:16.629Z",
+        "end_time": "2023-09-28T05:14:15.043Z",
+        "created_at": "2023-09-27T12:52:07.799Z",
+        "updated_at": "2023-09-27T07:11:54.044Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "8428d614-72ac-44ef-9982-89aea2380290",
+        "project_name": "Project X",
+        "project_status": "Active",
+        "created_at": "2023-09-27T10:11:15.239Z",
+        "updated_at": "2023-09-28T03:09:36.730Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "8bfebc72-83ef-441c-8297-30dcf41f0c6e",
+        "project_name": "Project Y",
+        "project_status": "Inactive",
+        "created_at": "2023-09-28T01:21:31.412Z",
+        "updated_at": "2023-09-27T17:08:43.287Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "44df31c8-492c-4334-9edc-b4db3e32608b",
+        "project_name": "Project Z",
+        "project_status": "Completed",
+        "created_at": "2023-09-28T03:02:54.276Z",
+        "updated_at": "2023-09-27T22:11:15.172Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "b70f037e-aff4-414f-a72b-680f32af4115",
+        "project_name": "Project A",
+        "project_status": "On Hold",
+        "created_at": "2023-09-27T15:23:31.573Z",
+        "updated_at": "2023-09-27T15:44:58.094Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "629463c9-7974-45c4-8ecc-dc2623b37138",
+        "project_name": "Project B",
+        "project_status": "Pending",
+        "created_at": "2023-09-27T16:23:13.691Z",
+        "updated_at": "2023-09-28T05:27:10.212Z",
+        "team_id": "main_entity_pk"
+      }
+    ],
+    "build": [
+      {
+        "id": "34d883ce-bbee-4c59-bd9a-d292d6cd8c68",
+        "build_name": "Build 1.0",
+        "build_status": "Successful",
+        "start_time": "2023-09-27T13:48:40.608Z",
+        "end_time": "2023-09-28T04:25:14.639Z",
+        "created_at": "2023-09-27T19:47:36.553Z",
+        "updated_at": "2023-09-27T14:23:30.092Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d031203f-63af-445c-bbab-2db7beb7e3e9",
+        "build_name": "Build 2.0",
+        "build_status": "Failed",
+        "start_time": "2023-09-27T12:01:23.013Z",
+        "end_time": "2023-09-27T11:17:01.214Z",
+        "created_at": "2023-09-27T20:30:01.078Z",
+        "updated_at": "2023-09-28T04:11:38.965Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4bd2e3b8-9d9d-45fe-b6af-37086379e602",
+        "build_name": "Build 3.0",
+        "build_status": "Aborted",
+        "start_time": "2023-09-27T17:41:33.089Z",
+        "end_time": "2023-09-28T03:49:06.906Z",
+        "created_at": "2023-09-27T13:39:55.479Z",
+        "updated_at": "2023-09-28T04:37:03.597Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b19b0f7b-8011-4b55-86cf-534f9b4d235e",
+        "build_name": "Build 4.0",
+        "build_status": "Running",
+        "start_time": "2023-09-28T02:56:56.525Z",
+        "end_time": "2023-09-27T18:48:29.581Z",
+        "created_at": "2023-09-27T10:28:25.320Z",
+        "updated_at": "2023-09-27T20:35:53.249Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f0fcb44-644d-4afa-a2eb-cc2a609fb732",
+        "build_name": "Build 5.0",
+        "build_status": "Pending",
+        "start_time": "2023-09-28T03:12:22.035Z",
+        "end_time": "2023-09-27T18:42:14.645Z",
+        "created_at": "2023-09-27T08:53:48.137Z",
+        "updated_at": "2023-09-27T13:01:32.125Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "a7f76829-27cb-4ce4-9c9d-9179c00c1517",
+        "report_name": "Monthly Report",
+        "report_status": "Draft",
+        "created_at": "2023-09-27T06:58:20.097Z",
+        "updated_at": "2023-09-27T23:32:57.084Z",
+        "build_id": "34d883ce-bbee-4c59-bd9a-d292d6cd8c68",
+        "test_run_id": "320e4768-148a-4a28-adaa-b9a0aea1841d"
+      },
+      {
+        "id": "d5f22347-fd80-4d17-955f-f7c5b72c1e90",
+        "report_name": "Quarterly Report",
+        "report_status": "Published",
+        "created_at": "2023-09-27T11:47:07.276Z",
+        "updated_at": "2023-09-27T23:10:36.300Z",
+        "build_id": "5f0fcb44-644d-4afa-a2eb-cc2a609fb732",
+        "test_run_id": "6381c185-619d-42b2-9b83-3184b484a9ab"
+      },
+      {
+        "id": "500cb82c-aa64-4b2f-a1b5-0d9aa12be39d",
+        "report_name": "Annual Report",
+        "report_status": "Archived",
+        "created_at": "2023-09-27T22:14:53.186Z",
+        "updated_at": "2023-09-28T04:50:40.257Z",
+        "build_id": "5f0fcb44-644d-4afa-a2eb-cc2a609fb732",
+        "test_run_id": "6381c185-619d-42b2-9b83-3184b484a9ab"
+      },
+      {
+        "id": "539687ac-1182-48a6-bd27-d56674ce9523",
+        "report_name": "Sales Report",
+        "report_status": "Pending",
+        "created_at": "2023-09-28T03:33:16.622Z",
+        "updated_at": "2023-09-28T00:27:07.070Z",
+        "build_id": "4bd2e3b8-9d9d-45fe-b6af-37086379e602",
+        "test_run_id": "320e4768-148a-4a28-adaa-b9a0aea1841d"
+      },
+      {
+        "id": "83716af8-1606-4cae-917d-c60138cbefb2",
+        "report_name": "Marketing Report",
+        "report_status": "Reviewing",
+        "created_at": "2023-09-27T12:16:34.917Z",
+        "updated_at": "2023-09-28T03:35:49.314Z",
+        "build_id": "4bd2e3b8-9d9d-45fe-b6af-37086379e602",
+        "test_run_id": "e455b1d6-8fd2-4012-b8a5-fbe940ce528b"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "75778d18-3311-4111-b356-f00f5de44f27",
+        "email": "Cade_Hoeger@roq.tech",
+        "firstName": "Cathrine",
+        "lastName": "Champlin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81810380",
+        "tenantId": null
+      },
+      {
+        "reference": "8235a5f8-f673-4583-917e-2d235958a4d3",
+        "email": "Issac.Kertzmann@roq.tech",
+        "firstName": "Bessie",
+        "lastName": "Rodriguez",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/437.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "118eba51-83d3-48f5-b7c6-27c241df01b5",
+        "email": "Johnson62@roq.tech",
+        "firstName": "Eduardo",
+        "lastName": "Schulist",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56001097",
+        "tenantId": null
+      },
+      {
+        "reference": "9622e786-5947-421e-9641-2691bec08c6f",
+        "email": "Serena.Conroy-Graham@roq.tech",
+        "firstName": "Zola",
+        "lastName": "Romaguera",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10623396",
+        "tenantId": null
+      },
+      {
+        "reference": "2ec83307-91a7-441f-b019-c0ea7d10e197",
+        "email": "Elfrieda43@roq.tech",
+        "firstName": "Raleigh",
+        "lastName": "Ziemann-Rempel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/712.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "test_run": [
+      {
+        "id": "20fd6c5d-c535-41f9-9f5a-a4b5d66885cf",
+        "test_name": "Login Test",
+        "status": "Passed",
+        "start_time": "2023-09-27T19:12:54.094Z",
+        "end_time": "2023-09-28T06:26:13.542Z",
+        "created_at": "2023-09-27T13:57:33.885Z",
+        "updated_at": "2023-09-27T17:59:54.005Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f29f2440-1b56-4896-88a4-166297c1a355",
+        "test_name": "Registration Test",
+        "status": "Failed",
+        "start_time": "2023-09-28T00:49:43.467Z",
+        "end_time": "2023-09-27T23:23:23.160Z",
+        "created_at": "2023-09-27T14:41:30.650Z",
+        "updated_at": "2023-09-28T01:50:13.064Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0efecbac-2006-4271-9ce4-796188523b97",
+        "test_name": "Payment Test",
+        "status": "Pending",
+        "start_time": "2023-09-27T13:09:25.418Z",
+        "end_time": "2023-09-28T03:24:54.903Z",
+        "created_at": "2023-09-27T15:57:40.904Z",
+        "updated_at": "2023-09-27T10:45:10.515Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47b2944d-dddd-4337-a88a-13c700dcb8c3",
+        "test_name": "Search Test",
+        "status": "Blocked",
+        "start_time": "2023-09-27T16:54:44.000Z",
+        "end_time": "2023-09-28T05:38:11.888Z",
+        "created_at": "2023-09-27T09:08:17.662Z",
+        "updated_at": "2023-09-28T06:53:50.141Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3d163cd-cdc2-48d9-a2e0-e3667570b9de",
+        "test_name": "Checkout Test",
+        "status": "Skipped",
+        "start_time": "2023-09-28T03:13:11.204Z",
+        "end_time": "2023-09-28T02:39:14.500Z",
+        "created_at": "2023-09-27T14:32:29.088Z",
+        "updated_at": "2023-09-28T02:36:47.929Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "17783e23-9898-433a-920c-d8191bd699d7",
+        "project_name": "E-commerce Website",
+        "project_status": "In Progress",
+        "created_at": "2023-09-27T13:03:41.920Z",
+        "updated_at": "2023-09-27T10:19:43.141Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "a3c4ed4e-7b68-4cbc-9787-d4cdcb8cebf0",
+        "project_name": "Mobile Banking App",
+        "project_status": "Completed",
+        "created_at": "2023-09-28T04:43:14.875Z",
+        "updated_at": "2023-09-27T16:50:18.430Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "f3447f0c-6281-45cc-b9d3-3956e5b44ec3",
+        "project_name": "CRM System",
+        "project_status": "On Hold",
+        "created_at": "2023-09-27T07:36:54.940Z",
+        "updated_at": "2023-09-27T16:00:36.004Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "c6d2d0cd-4a60-49af-a6f6-88d5c98e20fd",
+        "project_name": "Inventory Management System",
+        "project_status": "Cancelled",
+        "created_at": "2023-09-28T04:54:13.315Z",
+        "updated_at": "2023-09-28T04:28:08.207Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "f4e9a6bb-f75c-4f0a-9c37-fe849d99172d",
+        "project_name": "Social Media Platform",
+        "project_status": "Pending",
+        "created_at": "2023-09-27T23:47:58.915Z",
+        "updated_at": "2023-09-27T20:52:45.382Z",
+        "team_id": "main_entity_pk"
+      }
+    ],
+    "build": [
+      {
+        "id": "5a50deae-b757-4cba-b1d5-d6bb22ef0fb0",
+        "build_name": "Version 1.0",
+        "build_status": "Successful",
+        "start_time": "2023-09-27T10:04:45.707Z",
+        "end_time": "2023-09-27T07:43:21.955Z",
+        "created_at": "2023-09-28T06:55:20.926Z",
+        "updated_at": "2023-09-27T15:14:26.839Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b4999be0-4c2e-4269-9099-5aefecde36dc",
+        "build_name": "Build 2022.1",
+        "build_status": "Failed",
+        "start_time": "2023-09-27T23:58:41.746Z",
+        "end_time": "2023-09-27T16:56:35.687Z",
+        "created_at": "2023-09-27T17:07:32.807Z",
+        "updated_at": "2023-09-27T16:07:06.270Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f38ebf27-8f48-4c37-9e19-86e2ff4bcd11",
+        "build_name": "Release 3.5",
+        "build_status": "In Progress",
+        "start_time": "2023-09-27T09:36:24.267Z",
+        "end_time": "2023-09-27T18:47:56.151Z",
+        "created_at": "2023-09-27T15:49:50.756Z",
+        "updated_at": "2023-09-28T05:20:00.820Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2348f9a1-af93-4c79-aac5-b36be5c5e1a5",
+        "build_name": "Build 12345",
+        "build_status": "Cancelled",
+        "start_time": "2023-09-28T03:49:49.898Z",
+        "end_time": "2023-09-27T07:10:54.510Z",
+        "created_at": "2023-09-27T18:48:07.990Z",
+        "updated_at": "2023-09-27T20:02:27.707Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c4e1537-c413-4a9f-8087-01cda5536d4a",
+        "build_name": "Alpha Build",
+        "build_status": "Pending",
+        "start_time": "2023-09-27T22:22:53.579Z",
+        "end_time": "2023-09-27T20:39:18.608Z",
+        "created_at": "2023-09-27T10:58:16.557Z",
+        "updated_at": "2023-09-28T03:07:19.882Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "03ac0c45-4b5f-4b23-b583-76b37cda2bd9",
+        "report_name": "Monthly Sales Report",
+        "report_status": "Generated",
+        "created_at": "2023-09-27T09:26:51.197Z",
+        "updated_at": "2023-09-28T00:21:40.030Z",
+        "build_id": "b4999be0-4c2e-4269-9099-5aefecde36dc",
+        "test_run_id": "f29f2440-1b56-4896-88a4-166297c1a355"
+      },
+      {
+        "id": "c2a9410d-34f2-451d-b112-19cae756f49e",
+        "report_name": "Bug Report",
+        "report_status": "Not Generated",
+        "created_at": "2023-09-28T00:10:39.090Z",
+        "updated_at": "2023-09-27T19:26:48.005Z",
+        "build_id": "5a50deae-b757-4cba-b1d5-d6bb22ef0fb0",
+        "test_run_id": "0efecbac-2006-4271-9ce4-796188523b97"
+      },
+      {
+        "id": "144f878c-6ba0-451f-bbb2-ecbb7ff0951a",
+        "report_name": "Performance Analysis Report",
+        "report_status": "In Progress",
+        "created_at": "2023-09-28T02:55:00.798Z",
+        "updated_at": "2023-09-27T11:41:00.248Z",
+        "build_id": "b4999be0-4c2e-4269-9099-5aefecde36dc",
+        "test_run_id": "47b2944d-dddd-4337-a88a-13c700dcb8c3"
+      },
+      {
+        "id": "f7804785-ddba-492a-92db-6c26a42b2869",
+        "report_name": "User Feedback Report",
+        "report_status": "Completed",
+        "created_at": "2023-09-27T18:26:58.393Z",
+        "updated_at": "2023-09-28T02:28:38.491Z",
+        "build_id": "2348f9a1-af93-4c79-aac5-b36be5c5e1a5",
+        "test_run_id": "0efecbac-2006-4271-9ce4-796188523b97"
+      },
+      {
+        "id": "6053ec34-88b0-47ee-a06b-fe6ef091d736",
+        "report_name": "Security Audit Report",
+        "report_status": "Pending",
+        "created_at": "2023-09-27T08:29:37.085Z",
+        "updated_at": "2023-09-27T16:48:18.251Z",
+        "build_id": "2348f9a1-af93-4c79-aac5-b36be5c5e1a5",
+        "test_run_id": "d3d163cd-cdc2-48d9-a2e0-e3667570b9de"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7294ba3d-7c1f-44f0-a2da-c8172e5f8fe3",
+        "email": "General.Kutch82@roq.tech",
+        "firstName": "Leonel",
+        "lastName": "Stoltenberg-Morissette",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1129.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9efcdc23-cfc6-48f7-bd6e-3505c1e40b77",
+        "email": "Meggie94@roq.tech",
+        "firstName": "Junior",
+        "lastName": "Schuster",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/448.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e2e9bd32-15bc-4166-b38b-7934116c8161",
+        "email": "Derrick_Rolfson37@roq.tech",
+        "firstName": "Jefferey",
+        "lastName": "Orn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13556950",
+        "tenantId": null
+      },
+      {
+        "reference": "8323bc22-ea1a-496d-87e2-bcc906912536",
+        "email": "Greyson_DAmore@roq.tech",
+        "firstName": "Wilhelmine",
+        "lastName": "Rogahn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/38.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7e4bd746-b186-4354-b59d-b770ff88e4e8",
+        "email": "Loma65@roq.tech",
+        "firstName": "Lina",
+        "lastName": "Abbott",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61259031",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "test_run": [
+      {
+        "id": "968375ef-1bfb-4fee-83d4-0b474003d864",
+        "test_name": "Login Test",
+        "status": "Passed",
+        "start_time": "2023-09-27T07:55:03.280Z",
+        "end_time": "2023-09-27T14:39:02.359Z",
+        "created_at": "2023-09-27T09:55:29.980Z",
+        "updated_at": "2023-09-27T11:15:03.812Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56215119-373f-417f-9a1b-a4de8697e0ac",
+        "test_name": "Registration Test",
+        "status": "Failed",
+        "start_time": "2023-09-28T00:48:15.497Z",
+        "end_time": "2023-09-27T22:32:02.628Z",
+        "created_at": "2023-09-27T20:21:49.376Z",
+        "updated_at": "2023-09-28T03:19:05.525Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bb30b5aa-ef60-448b-a2e2-1fbea0ee06ab",
+        "test_name": "Search Test",
+        "status": "Skipped",
+        "start_time": "2023-09-28T01:52:17.611Z",
+        "end_time": "2023-09-27T21:15:35.236Z",
+        "created_at": "2023-09-27T22:24:22.557Z",
+        "updated_at": "2023-09-28T00:23:46.173Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1cbdab60-8193-4e0e-a8b1-0ed24dea6d72",
+        "test_name": "Checkout Test",
+        "status": "Pending",
+        "start_time": "2023-09-28T00:09:16.932Z",
+        "end_time": "2023-09-27T10:36:24.707Z",
+        "created_at": "2023-09-27T18:41:39.882Z",
+        "updated_at": "2023-09-28T05:33:59.844Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a5e4e6c-4e26-45dc-b74b-39da29113a52",
+        "test_name": "Payment Test",
+        "status": "Running",
+        "start_time": "2023-09-27T11:18:07.558Z",
+        "end_time": "2023-09-28T06:28:05.358Z",
+        "created_at": "2023-09-27T17:15:29.787Z",
+        "updated_at": "2023-09-28T03:57:11.865Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "4dbed412-f640-4c25-a6de-6c10bd4c45e5",
+        "project_name": "E-commerce Website",
+        "project_status": "In Progress",
+        "created_at": "2023-09-28T02:14:00.292Z",
+        "updated_at": "2023-09-28T05:15:46.341Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "f16ec06a-4a06-4501-b458-99a4919aa5e0",
+        "project_name": "Mobile App",
+        "project_status": "Completed",
+        "created_at": "2023-09-27T10:08:14.059Z",
+        "updated_at": "2023-09-27T17:16:07.586Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "eb01bc55-b7e7-442c-bfe1-667ba900be6d",
+        "project_name": "CRM System",
+        "project_status": "On Hold",
+        "created_at": "2023-09-27T21:56:28.446Z",
+        "updated_at": "2023-09-27T10:07:35.453Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "e9fd1d80-5b6a-41ca-bae3-0056e2533aa0",
+        "project_name": "Inventory Management System",
+        "project_status": "Cancelled",
+        "created_at": "2023-09-28T02:14:56.708Z",
+        "updated_at": "2023-09-27T22:28:31.566Z",
+        "team_id": "main_entity_pk"
+      },
+      {
+        "id": "0dd1a3f8-6a82-473e-9706-8ed84c346a97",
+        "project_name": "Online Learning Platform",
+        "project_status": "Planning",
+        "created_at": "2023-09-28T02:25:44.893Z",
+        "updated_at": "2023-09-27T15:39:05.071Z",
+        "team_id": "main_entity_pk"
+      }
+    ],
+    "build": [
+      {
+        "id": "8353b46f-4e0e-48c0-905d-ad1f326a27cc",
+        "build_name": "Version 1.0",
+        "build_status": "Success",
+        "start_time": "2023-09-27T20:25:10.634Z",
+        "end_time": "2023-09-28T02:58:00.854Z",
+        "created_at": "2023-09-28T05:34:39.560Z",
+        "updated_at": "2023-09-27T08:20:29.193Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef38850a-4289-49b0-9c6c-a872c89428f8",
+        "build_name": "Build 2022.1",
+        "build_status": "Failure",
+        "start_time": "2023-09-28T04:06:43.248Z",
+        "end_time": "2023-09-27T23:08:20.376Z",
+        "created_at": "2023-09-27T10:57:04.916Z",
+        "updated_at": "2023-09-27T22:47:39.139Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "21265b71-d616-4675-930b-101232f778a6",
+        "build_name": "Release Candidate",
+        "build_status": "Partial Success",
+        "start_time": "2023-09-28T06:37:21.446Z",
+        "end_time": "2023-09-27T16:19:12.149Z",
+        "created_at": "2023-09-27T23:35:25.820Z",
+        "updated_at": "2023-09-27T10:33:27.204Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "28a2749c-8d0c-4cfb-aeed-b1df89f71b17",
+        "build_name": "Alpha Build",
+        "build_status": "Aborted",
+        "start_time": "2023-09-27T10:03:29.184Z",
+        "end_time": "2023-09-27T18:32:07.769Z",
+        "created_at": "2023-09-28T00:56:49.667Z",
+        "updated_at": "2023-09-27T08:59:50.614Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe361b2d-6af9-4508-9f87-19642cbf9ae2",
+        "build_name": "Stable Release",
+        "build_status": "Building",
+        "start_time": "2023-09-28T04:56:43.382Z",
+        "end_time": "2023-09-27T14:36:43.314Z",
+        "created_at": "2023-09-27T12:46:44.510Z",
+        "updated_at": "2023-09-27T09:57:37.540Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "report": [
+      {
+        "id": "f03f5721-d866-47a8-a2db-e4a92f9408bd",
+        "report_name": "Monthly Sales Report",
+        "report_status": "Pending",
+        "created_at": "2023-09-28T00:11:30.652Z",
+        "updated_at": "2023-09-28T01:20:46.005Z",
+        "build_id": "8353b46f-4e0e-48c0-905d-ad1f326a27cc",
+        "test_run_id": "56215119-373f-417f-9a1b-a4de8697e0ac"
+      },
+      {
+        "id": "22cbf80c-3eb0-4851-8191-60f407b8906c",
+        "report_name": "Bug Report",
+        "report_status": "Completed",
+        "created_at": "2023-09-28T03:15:55.881Z",
+        "updated_at": "2023-09-27T09:55:14.468Z",
+        "build_id": "fe361b2d-6af9-4508-9f87-19642cbf9ae2",
+        "test_run_id": "1a5e4e6c-4e26-45dc-b74b-39da29113a52"
+      },
+      {
+        "id": "b03a4a1d-9a86-486d-8dda-deee226e328c",
+        "report_name": "Performance Analysis",
+        "report_status": "In Review",
+        "created_at": "2023-09-27T23:50:33.034Z",
+        "updated_at": "2023-09-28T06:46:58.165Z",
+        "build_id": "fe361b2d-6af9-4508-9f87-19642cbf9ae2",
+        "test_run_id": "1cbdab60-8193-4e0e-a8b1-0ed24dea6d72"
+      },
+      {
+        "id": "43c90aec-a246-4b5d-b97d-ab58877c373e",
+        "report_name": "User Feedback Report",
+        "report_status": "Rejected",
+        "created_at": "2023-09-27T16:12:57.576Z",
+        "updated_at": "2023-09-27T20:12:33.155Z",
+        "build_id": "21265b71-d616-4675-930b-101232f778a6",
+        "test_run_id": "1a5e4e6c-4e26-45dc-b74b-39da29113a52"
+      },
+      {
+        "id": "acdd92e6-3ef7-4f3f-88bb-04af95ff7575",
+        "report_name": "Security Audit",
+        "report_status": "Draft",
+        "created_at": "2023-09-27T14:05:01.777Z",
+        "updated_at": "2023-09-28T05:13:39.830Z",
+        "build_id": "21265b71-d616-4675-930b-101232f778a6",
+        "test_run_id": "bb30b5aa-ef60-448b-a2e2-1fbea0ee06ab"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9a08f9a0-a996-41c5-84c5-72e6f0e99058",
+        "email": "Helena21@roq.tech",
+        "firstName": "Cassidy",
+        "lastName": "Bogan-Mann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/572.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "12ec59bb-49d0-4bce-8866-260d8cdf0982",
+        "email": "Antone.Walter@roq.tech",
+        "firstName": "Frankie",
+        "lastName": "Stark",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35565675",
+        "tenantId": null
+      },
+      {
+        "reference": "ffc123d7-8803-46d1-8e73-d658e1896ec4",
+        "email": "Shaun.Jast34@roq.tech",
+        "firstName": "Esther",
+        "lastName": "Marks",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18641746",
+        "tenantId": null
+      },
+      {
+        "reference": "a215eab0-e753-462b-b880-7d7848ce21a1",
+        "email": "Danyka.Graham-Beier13@roq.tech",
+        "firstName": "Alec",
+        "lastName": "Bode",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82892803",
+        "tenantId": null
+      },
+      {
+        "reference": "7f0687c8-6dbb-4a06-bed6-8cf62c809cc6",
+        "email": "Jarred.Ferry49@roq.tech",
+        "firstName": "Tomas",
+        "lastName": "Crona",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45849169",
+        "tenantId": null
+      }
+    ]
+  }
+]
